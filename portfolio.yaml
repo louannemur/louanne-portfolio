@@ -1,0 +1,265 @@
+# Portfolio configuration for devfolio.page
+# Run: devfolio-page render (from this folder)
+
+meta:
+  name: Louanne Murphy
+  title: Webmaster
+  location: Seattle, WA
+  # avatar: /images/avatar.jpg
+  # hero_image: /images/hero.jpg
+
+contact:
+  email: louanne@internet.dev
+  website: https://louanne.me
+  github: louannemur
+  linkedin: louannemurphy
+  twitter: LouanneMMurphy
+
+bio: |
+  Webmaster at Internet Development Studio Company. Microsoft Build Conference speaker.
+  Expertise in fullstack development, 3D graphics, and machine learning.
+
+about:
+  short: |
+    Webmaster building performant web experiences with React, Next.js, and Three.js.
+    Speaker at Microsoft Build. Oxford-certified in Deep Unsupervised Learning.
+
+  long: |
+    ### Background
+
+    Computer Science education at ASU and USC Columbia, with a Deep Unsupervised Learning
+    certification from Oxford (First Class Honours). Currently working as Webmaster at
+    Internet Development Studio Company in Seattle.
+
+    ### What I Do
+
+    I build full-stack web applications with a focus on frontend excellence. My work spans
+    React and Next.js applications, 3D interactive experiences with Three.js and WebGL,
+    and machine learning integrations. I ship developer tools, solve real user problems,
+    and speak at conferences like Microsoft Build.
+
+    ### Interests
+
+    Dark academia aesthetics, procedural generation, and building tools that make
+    developers' lives easier.
+
+projects:
+  - id: devfolio-page
+    title: devfolio.page
+    subtitle: Your portfolio as code – generate beautiful static sites from YAML
+    featured: true
+
+    # thumbnail: /images/projects/devfolio/thumbnail.png
+
+    meta:
+      year: 2026
+      role: Solo Developer
+      tech: [Next.js, SRCL, Node.js, npm]
+      links:
+        github: https://github.com/louannemur/devfolio
+        demo: https://www.devfolio.page
+
+    sections:
+      - type: overview
+        content: |
+          ## The Problem
+
+          Keeping a portfolio up to date means editing HTML across multiple pages,
+          wrestling with layouts, and re-deploying for every small change.
+
+          ## The Solution
+
+          One YAML file. Edit your content, run the CLI, and your entire site rebuilds.
+
+          **Key Features:**
+          - Install via npm: `npm install -g devfolio-page`
+          - All content lives in a single, readable YAML file
+          - Change a project description, add a skill, update your bio — one file, whole site
+          - Multiple themes: SRCL terminal aesthetic, modern minimalism, dark academia
+          - Live dev server with auto-rebuild for fast iteration
+          - Generates lightweight static HTML/CSS/JS for Vercel, Netlify, or GitHub Pages
+
+  - id: quotescroll
+    title: QuoteScroll
+    subtitle: "Built from a tweet: scrolls like social media, posts are your Kindle highlights"
+    featured: true
+
+    # thumbnail: /images/projects/quotescroll/thumbnail.png
+
+    meta:
+      year: 2026
+      role: Solo Developer
+      tech: [Next.js, React, SCSS, pdf.js]
+      links:
+        github: https://github.com/louannemur/QuoteScroll
+        demo: https://quotescroll.vercel.app
+
+    sections:
+      - type: overview
+        content: |
+          ## The Problem
+
+          Someone tweeted "Can someone build this app?" wanting a way to revisit
+          their Kindle highlights in a more engaging format.
+
+          ## The Solution
+
+          A Twitter-like feed for your Kindle book highlights. Import, browse, and
+          save your favorite quotes.
+
+          **Key Features:**
+          - Import highlights from Kindle's `My Clippings.txt` or Amazon PDF exports
+          - X.com-style dark theme optimized for reading
+          - Heart and save favorite passages
+          - Privacy-first: all data stored locally in browser (no account required)
+          - Responsive design for desktop, tablet, and mobile
+          - Built quickly in response to a Twitter request
+
+  - id: omnipost
+    title: Omnipost
+    subtitle: Cross-platform social media posting from a single interface
+    featured: true
+
+    # thumbnail: /images/projects/omnipost/thumbnail.png
+
+    meta:
+      year: 2025
+      role: Solo Developer
+      tech: [Next.js, React, TypeScript, SASS]
+      links:
+        github: https://github.com/louannemur/omnipost
+        demo: https://omnipost.onrender.com
+
+    sections:
+      - type: overview
+        content: |
+          ## The Problem
+
+          Manually cross-posting content to X/Twitter, LinkedIn, Threads, and
+          Bluesky is tedious and time-consuming.
+
+          ## The Solution
+
+          Create and post content to multiple social media platforms simultaneously.
+
+          **Supported Platforms:**
+          - X/Twitter (280 chars)
+          - LinkedIn (3,000 chars)
+          - Threads (500 chars)
+          - Bluesky (300 chars)
+
+          **Key Features:**
+          - Unified mode: same content to all platforms
+          - Custom mode: individualized content per platform
+          - Real-time character count with visual warnings
+          - One-click posting across all selected platforms
+          - UI components by Sacred Computer
+
+  - id: manuscriptmatch
+    title: ManuscriptMatch
+    subtitle: A platform connecting writers with beta readers and literary agents
+    featured: true
+
+    # thumbnail: /images/projects/manuscriptmatch/thumbnail.png
+
+    meta:
+      year: 2025
+      role: Solo Developer 
+      tech: [Next.js, PostgreSQL, TypeScript]
+      links:
+        demo: https://manuscriptmatch.com
+
+    sections:
+      - type: overview
+        content: |
+          ## The Problem
+
+          Writers struggle to find beta readers and connect with literary agents.
+          The query process is fragmented and opaque.
+
+          ## The Solution
+
+          A full-stack platform with features for every stakeholder:
+
+          **For Agencies:** Agency pages, agent management dashboards, invite system
+
+          **For Agents:** Customizable query letter wizards, wishlist profiles, query management dashboard
+
+          **For Writers:** Agent matching system, manuscript upload, query tracking with status updates
+
+          **For Beta Readers:** Apply to read manuscripts, in-app annotation tools, reputation/rating system
+
+          Smart genre matching and analytics tie everything together.
+
+sections:
+  experience:
+    - company: Internet Development Studio Company
+      role: Webmaster
+      date:
+        start: 2025-11
+        end: present
+      location: Seattle, WA
+      highlights:
+        
+
+  skills:
+    Frontend Development:
+      - React
+      - Next.js (14+)
+      - TypeScript
+      - JavaScript (ES6+)
+      - SASS
+      - Tailwind CSS
+      - CSS3
+      - Responsive Design
+    3D & Interactive:
+      - Three.js
+      - WebGL
+      - GLSL Shaders
+      - Procedural Generation
+    Design:
+      - Figma
+      - UI/UX Design
+    Backend & Database:
+      - Node.js
+      - Express
+      - PostgreSQL
+      - REST APIs
+    Machine Learning:
+      - Deep Unsupervised Learning
+      - TensorFlow.js
+      - PyTorch
+      - NLP
+      - Computer Vision
+
+  education:
+    - institution: University of Oxford
+      degree: Deep Unsupervised Learning Certification
+      description: First Class Honours (A+)
+
+    - institution: USC Columbia
+      degree: Computer Science
+      date:
+        start: 2021-08
+        end: 2025-05
+
+pages:
+  projects:
+    title: Work
+    description: Developer tools and full-stack applications — shipped products that solve real problems.
+
+# Choose your theme
+theme: dark-academia  # or: srcl, modern, dark-academia
+
+# Configure layout
+layout:
+  homepage_style: hero  # or: grid, minimal
+  project_layout: case-study  # or: grid, list
+  show_experiments: true
+  show_timeline: false
+
+settings:
+  show_grid: false
+  enable_hotkeys: true
+  color_scheme: dark
+  animate: subtle

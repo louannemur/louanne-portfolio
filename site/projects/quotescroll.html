@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuoteScroll - Louanne Murphy</title>
+  <meta name="description" content="Built from a tweet: scrolls like social media, posts are your Kindle highlights">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script>
+    (function() {
+      try {
+        var saved = localStorage.getItem('academia-theme');
+        if (saved) document.documentElement.dataset.theme = saved;
+      } catch(e) {}
+    })();
+  </script>
+</head>
+<body class="academia-theme" data-theme="dark">
+
+  <nav class="site-nav">
+    <div class="nav-content">
+      <a href="../" class="nav-logo">Louanne Murphy</a>
+      <div class="nav-links">
+        <a href="..&#x2F;">Home</a>
+        <a href="..&#x2F;about&#x2F;">About</a>
+        <a href="..&#x2F;projects&#x2F;" class="active">Projects</a>
+      </div>
+      <button class="theme-btn" title="Toggle theme" aria-label="Toggle theme">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="page-content project-page">
+    <header class="project-header">
+      <div class="header-ornament"></div>
+      <h1>QuoteScroll</h1>
+      <p class="subtitle">Built from a tweet: scrolls like social media, posts are your Kindle highlights</p>
+
+      <div class="project-meta">
+        <div class="meta-item">
+          <span class="meta-label">Year</span>
+          <span class="meta-value">2026</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Role</span>
+          <span class="meta-value">Solo Developer</span>
+        </div>
+      </div>
+
+      <div class="project-tags">
+        <span class="tag">Next.js</span><span class="tag">React</span><span class="tag">SCSS</span><span class="tag">pdf.js</span>
+      </div>
+
+      <div class="project-links">
+        <a href="https:&#x2F;&#x2F;github.com&#x2F;louannemur&#x2F;QuoteScroll" target="_blank" class="project-link">Repository</a>
+        <a href="https:&#x2F;&#x2F;quotescroll.vercel.app" target="_blank" class="project-link">Demonstration</a>
+        
+      </div>
+    </header>
+
+    <div class="project-content prose">
+      <div class="section-overview"><h2>The Problem</h2>
+<p>Someone tweeted &quot;Can someone build this app?&quot; wanting a way to revisit<br>their Kindle highlights in a more engaging format.</p>
+<h2>The Solution</h2>
+<p>A Twitter-like feed for your Kindle book highlights. Import, browse, and<br>save your favorite quotes.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>Import highlights from Kindle&#39;s <code>My Clippings.txt</code> or Amazon PDF exports</li>
+<li>X.com-style dark theme optimized for reading</li>
+<li>Heart and save favorite passages</li>
+<li>Privacy-first: all data stored locally in browser (no account required)</li>
+<li>Responsive design for desktop, tablet, and mobile</li>
+<li>Built quickly in response to a Twitter request</li>
+</ul>
+</div>
+    </div>
+
+    <nav class="project-nav">
+      <div class="nav-ornament"></div>
+      <a href="./" class="back-link">&larr; Return to Collection</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-ornament"></div>
+    <p>Crafted with <a href="https://devfolio.page" target="_blank">devfolio.page</a></p>
+  </footer>
+
+  <script src="../assets/script.js"></script>
+</body>
+</html>
